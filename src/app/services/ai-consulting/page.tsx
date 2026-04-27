@@ -11,7 +11,6 @@ export default function AiConsultingPage() {
     <ServicePage
       label="SERVICE"
       title="AIコンサルティング"
-      image="/images/ever-ready-infra.png"
       description="AIの導入戦略立案から実装まで、一貫したコンサルティングを提供します。お客様のビジネスに最適なAIソリューションをご提案し、競争優位性の確立と持続的な成長をサポートします。豊富な実績と最新の技術知見に基づき、実現可能で効果的なAI戦略を策定します。"
       features={[
         { title: 'AI導入戦略の策定', desc: 'お客様のビジネス目標と現状の課題を分析し、最適なAI導入ロードマップを策定します。短期・中期・長期の段階的な導入計画で、確実な成果を実現します。' },

@@ -1,15 +1,12 @@
 export default function CompanySection() {
   return (
-    <div className="stork-company-section" id="company">
-      <div className="stork-company-inner">
-        <div className="rad-header alignment-left">
-          <div className="rad-header__wrapper">
-            <div className="rad-header__text-container">
-              <h2 className="rad-header__headline">会社概要</h2>
-            </div>
-          </div>
-        </div>
-        <table className="stork-company-table">
+    <section id="company" className="section">
+      <div className="section__inner section__inner--narrow">
+        <header className="section__header">
+          <p className="section__eyebrow">Company</p>
+          <h2 className="section__title">会社概要</h2>
+        </header>
+        <table className="info-table">
           <tbody>
             <tr>
               <th>社名</th>
@@ -63,15 +60,7 @@ export default function CompanySection() {
             </tr>
           </tbody>
         </table>
-        <div className="stork-map-container">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.565542014831!2d139.70302631525956!3d35.71230748018705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d395e063cff%3A0x2dcd52a0aba63d39!2z44CSMTY5LTAwNzUg5p2x5Lqs6YO95paw5a6_5Yy66auY55Sw6aas5aC077yR5LiB55uu77yS77yX4oiS77yR!5e0!3m2!1sja!2sjp!4v1515739325326"
-            allowFullScreen
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-          />
-        </div>
       </div>
-    </div>
+    </section>
   )
 }

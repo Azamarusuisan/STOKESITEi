@@ -11,7 +11,6 @@ export default function CrmHostingPage() {
     <ServicePage
       label="SERVICE"
       title="CRM & ホスティング"
-      image="/images/scale-paradox.jpg"
       description="各種店舗向けCRMの開発・販売からサーバー構築・運用まで、ビジネスインフラをトータルサポートします。お客様のビジネス規模に合わせた最適なソリューションで、顧客管理とITインフラの両面から経営を支援します。"
       features={[
         { title: 'CRMシステム開発・導入', desc: '店舗ごとの業務フローに最適化されたCRMシステムをカスタム開発。顧客データの一元管理、販促施策の自動化、顧客分析機能を提供します。' },

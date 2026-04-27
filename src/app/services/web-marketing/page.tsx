@@ -11,7 +11,6 @@ export default function WebMarketingPage() {
     <ServicePage
       label="SERVICE"
       title="WEBマーケティング"
-      image="/images/thought-leadership.jpg"
       description="教育コンテンツの作成から企業マッチングまで、デジタルマーケティングの全領域をカバーします。動画を活用した教育コンテンツ、在宅資格取得支援、企業マッチングなど、多角的なアプローチでお客様のビジネス拡大を支援します。"
       features={[
         { title: '動画を活用した教育コンテンツ', desc: '効果的な動画コンテンツの企画・制作を支援。eラーニング、製品紹介、採用動画など、目的に応じた最適なコンテンツを制作します。' },

@@ -11,7 +11,6 @@ export default function SystemDevelopmentPage() {
     <ServicePage
       label="SERVICE"
       title="システム開発"
-      image="/images/pulse-of-change.jpg"
       description="オープンソースソフトウェア(OSS)を有効活用し、コストを抑えたシステム構築を実現します。Webアプリケーション開発からシステム保守・運営、運用後の戦略的改善提案まで、豊富な経験と実績を活かした本当に使えるシステムをご提供します。"
       features={[
         { title: 'Webアプリケーション開発', desc: 'React、Next.js、Node.jsなどのモダンな技術スタックを活用し、高性能で使いやすいWebアプリケーションを開発します。' },

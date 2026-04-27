@@ -45,38 +45,38 @@ export default function ContactForm() {
 
   if (status === 'success') {
     return (
-      <div className="stork-form-success">
-        <p style={{ fontSize: '1.2rem', fontWeight: 700, marginBottom: 8 }}>送信完了</p>
+      <div className="form-success">
+        <p className="form-success__title">送信完了</p>
         <p>お問い合わせありがとうございます。<br />内容を確認の上、担当者よりご連絡いたします。</p>
       </div>
     )
   }
 
   return (
-    <form onSubmit={handleSubmit}>
-      {status === 'error' && <div className="stork-form-error">{errorMsg}</div>}
+    <form className="form" onSubmit={handleSubmit}>
+      {status === 'error' && <div className="form-error">{errorMsg}</div>}
 
-      <div className="stork-form-group">
+      <div className="form-group">
         <label>お名前<span className="required">*</span></label>
         <input type="text" name="name" value={formData.name} onChange={handleChange} required placeholder="山田 太郎" />
       </div>
 
-      <div className="stork-form-group">
+      <div className="form-group">
         <label>メールアドレス<span className="required">*</span></label>
         <input type="email" name="email" value={formData.email} onChange={handleChange} required placeholder="example@company.co.jp" />
       </div>
 
-      <div className="stork-form-group">
+      <div className="form-group">
         <label>電話番号</label>
         <input type="tel" name="phone" value={formData.phone} onChange={handleChange} placeholder="03-0000-0000" />
       </div>
 
-      <div className="stork-form-group">
+      <div className="form-group">
         <label>会社名</label>
         <input type="text" name="company" value={formData.company} onChange={handleChange} placeholder="株式会社〇〇" />
       </div>
 
-      <div className="stork-form-group">
+      <div className="form-group">
         <label>お問い合わせ種別<span className="required">*</span></label>
         <select name="subject" value={formData.subject} onChange={handleChange} required>
           <option value="">選択してください</option>
@@ -89,14 +89,13 @@ export default function ContactForm() {
         </select>
       </div>
 
-      <div className="stork-form-group">
+      <div className="form-group">
         <label>お問い合わせ内容<span className="required">*</span></label>
         <textarea name="message" value={formData.message} onChange={handleChange} required placeholder="お問い合わせ内容をご記入ください" />
       </div>
 
-      <button type="submit" className="stork-form-submit" disabled={status === 'sending'}>
+      <button type="submit" className="btn btn--primary" disabled={status === 'sending'}>
         {status === 'sending' ? '送信中...' : '送信する'}
-        <div className="rad-icon rad-icon__chevron-right rad-icon--compact" aria-hidden="true"></div>
       </button>
     </form>
   )

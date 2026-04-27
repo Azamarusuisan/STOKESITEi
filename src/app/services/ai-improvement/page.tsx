@@ -11,7 +11,6 @@ export default function AiImprovementPage() {
     <ServicePage
       label="SERVICE"
       title="AI業務改善提案"
-      image="/images/banking-trends-2026.jpg"
       description="AIを活用した業務改善提案で、生産性の向上とコスト削減を実現します。現場の業務フローを詳細に分析し、AI技術による自動化・効率化の余地を見出します。データドリブンな経営判断を可能にし、企業の競争力を高めます。"
       features={[
         { title: '業務フロー自動化', desc: 'AIとRPAを組み合わせた業務自動化により、定型業務の効率を大幅に向上。人的リソースをより創造的な業務に集中させます。' },

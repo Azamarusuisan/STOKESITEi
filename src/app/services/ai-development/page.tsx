@@ -11,7 +11,6 @@ export default function AiDevelopmentPage() {
     <ServicePage
       label="SERVICE"
       title="AI受託開発"
-      image="/images/platform-strategy.jpg"
       description="最先端のAI技術を活用したシステムの企画・設計・開発を受託します。機械学習・ディープラーニング、自然言語処理（NLP）、画像認識・データ分析など、お客様の課題に最適なAIシステムをオーダーメイドで構築。要件定義から運用保守まで一貫してサポートします。"
       features={[
         { title: '機械学習・ディープラーニング', desc: '大量のデータからパターンを学習し、予測・分類・異常検知などを行うAIモデルを開発。ビジネスの意思決定を強力にサポートします。' },

@@ -39,7 +39,7 @@ export default function Testimonials() {
               <p className="testimonial__quote">{t.quote}</p>
               <div className="testimonial__author">
                 <div className="testimonial__avatar">
-                  <ImageSlot id={t.slot} alt={t.alt} ratio="1 / 1" />
+                  <ImageSlot id={t.slot} alt={t.alt} ratio="1 / 1" src={`/images/${t.slot}.jpg`} />
                 </div>
                 <div>
                   <p className="testimonial__name">{t.author}</p>

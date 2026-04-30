@@ -17,6 +17,7 @@ export default function ValueHeader() {
             id="ceo-portrait"
             alt="代表 藤原憲市のポートレート(暗背景・モノクロ調)"
             ratio="16 / 9"
+            src="/images/ceo-portrait.jpg"
             className="img-slot--dark"
           />
         </div>

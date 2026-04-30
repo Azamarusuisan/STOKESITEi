@@ -869,9 +869,8 @@ p { margin: 0; }
 .img-slot {
   position: relative;
   width: 100%;
-  background: #f0f0f0;
+  background: transparent;
   overflow: hidden;
-  border: 1px dashed #c8c8c8;
 }
 .img-slot__placeholder {
   position: absolute;
@@ -922,8 +921,7 @@ p { margin: 0; }
   line-height: 1.5;
 }
 .img-slot--dark {
-  background: #0f1115;
-  border-color: rgba(255,255,255,0.18);
+  background: transparent;
 }
 .img-slot--dark .img-slot__placeholder {
   color: rgba(255,255,255,0.7);

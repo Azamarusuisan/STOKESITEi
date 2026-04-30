@@ -11,7 +11,7 @@ type Props = {
 export default function ImageSlot({ id, alt, ratio = '16 / 9', src, className }: Props) {
   return (
     <div
-      className={`img-slot${className ? ` ${className}` : ''}`}
+      className={`img-slot${src ? ' img-slot--filled' : ''}${className ? ` ${className}` : ''}`}
       data-slot-id={id}
       style={{ aspectRatio: ratio }}
     >

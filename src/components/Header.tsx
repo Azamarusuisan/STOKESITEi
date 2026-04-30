@@ -27,7 +27,10 @@ export default function Header() {
         <nav className={`site-nav${open ? ' site-nav--open' : ''}`} aria-label="global">
           <ul>
             <li><Link href="/#services" onClick={() => setOpen(false)}>サービス</Link></li>
-            <li><Link href="/#ai" onClick={() => setOpen(false)}>AIソリューション</Link></li>
+            <li><Link href="/#industries" onClick={() => setOpen(false)}>業界</Link></li>
+            <li><Link href="/#process" onClick={() => setOpen(false)}>導入プロセス</Link></li>
+            <li><Link href="/#insights" onClick={() => setOpen(false)}>インサイト</Link></li>
+            <li><Link href="/#faq" onClick={() => setOpen(false)}>FAQ</Link></li>
             <li><Link href="/#company" onClick={() => setOpen(false)}>会社概要</Link></li>
             <li><Link href="/contact" onClick={() => setOpen(false)}>お問い合わせ</Link></li>
           </ul>

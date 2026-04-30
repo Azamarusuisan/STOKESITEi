@@ -8,17 +8,37 @@ export default function Footer() {
           <p className="site-footer__title">AI × テクノロジーで変革を</p>
         </div>
         <div className="site-footer__cols">
-          <ul>
-            <li><Link href="/#services">サービス</Link></li>
-            <li><Link href="/#ai">AIソリューション</Link></li>
-            <li><Link href="/#company">会社概要</Link></li>
-            <li><Link href="/contact">お問い合わせ</Link></li>
-          </ul>
-          <ul>
-            <li><a href="tel:03-5928-9115">TEL: 03-5928-9115</a></li>
-            <li>東京都新宿区高田馬場1-27-1</li>
-            <li>ファインテックビル5階</li>
-          </ul>
+          <div>
+            <p className="site-footer__heading">Services</p>
+            <ul>
+              <li><Link href="/services/ai-consulting">AIコンサルティング</Link></li>
+              <li><Link href="/services/ai-development">AI受託開発</Link></li>
+              <li><Link href="/services/ai-improvement">AI業務改善提案</Link></li>
+              <li><Link href="/services/system-development">システム開発</Link></li>
+              <li><Link href="/services/web-marketing">WEBマーケティング</Link></li>
+              <li><Link href="/services/crm-hosting">CRM & ホスティング</Link></li>
+            </ul>
+          </div>
+          <div>
+            <p className="site-footer__heading">Company</p>
+            <ul>
+              <li><Link href="/#industries">業界別ソリューション</Link></li>
+              <li><Link href="/#process">導入プロセス</Link></li>
+              <li><Link href="/#insights">インサイト</Link></li>
+              <li><Link href="/#news">お知らせ</Link></li>
+              <li><Link href="/#faq">FAQ</Link></li>
+              <li><Link href="/#company">会社概要</Link></li>
+            </ul>
+          </div>
+          <div>
+            <p className="site-footer__heading">Contact</p>
+            <ul>
+              <li><a href="tel:03-5928-9115">TEL: 03-5928-9115</a></li>
+              <li>東京都新宿区高田馬場1-27-1</li>
+              <li>ファインテックビル5階</li>
+              <li><Link href="/contact">お問い合わせフォーム</Link></li>
+            </ul>
+          </div>
         </div>
         <p className="site-footer__copy">
           © {new Date().getFullYear()} Stork Co., Ltd. All Rights Reserved.

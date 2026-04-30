@@ -1,3 +1,5 @@
+import ImageSlot from './ImageSlot'
+
 export default function CompanySection() {
   return (
     <section id="company" className="section">
@@ -6,6 +8,13 @@ export default function CompanySection() {
           <p className="section__eyebrow">Company</p>
           <h2 className="section__title">会社概要</h2>
         </header>
+        <div className="company-visual">
+          <ImageSlot
+            id="company-office"
+            alt="ストーク本社オフィス(高田馬場)外観もしくは内観"
+            ratio="16 / 7"
+          />
+        </div>
         <table className="info-table">
           <tbody>
             <tr>

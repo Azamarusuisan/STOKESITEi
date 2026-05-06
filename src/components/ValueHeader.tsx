@@ -46,6 +46,25 @@ export default function ValueHeader() {
             </div>
           </dl>
         </div>
+
+        <ul className="value-header__metrics">
+          <li>
+            <span className="metric__num">23<small>年</small></span>
+            <span className="metric__label">創業からの事業継続</span>
+          </li>
+          <li>
+            <span className="metric__num">540<small>+</small></span>
+            <span className="metric__label">累計プロジェクト</span>
+          </li>
+          <li>
+            <span className="metric__num">94<small>%</small></span>
+            <span className="metric__label">継続契約率</span>
+          </li>
+          <li>
+            <span className="metric__num">38<small>社</small></span>
+            <span className="metric__label">上場企業の支援実績</span>
+          </li>
+        </ul>
       </div>
     </section>
   )

@@ -24,8 +24,6 @@ export default function Footer() {
             <ul>
               <li><Link href="/#industries">業界別ソリューション</Link></li>
               <li><Link href="/#process">導入プロセス</Link></li>
-              <li><Link href="/#insights">インサイト</Link></li>
-              <li><Link href="/#news">お知らせ</Link></li>
               <li><Link href="/#faq">FAQ</Link></li>
               <li><Link href="/#company">会社概要</Link></li>
             </ul>
